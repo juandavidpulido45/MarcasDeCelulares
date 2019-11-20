@@ -1,0 +1,20 @@
+body{
+    background-color:rgba(104, 210, 218, 0.37)
+}
+#titulo{
+    color:rgba(255, 0, 119, 0.719)
+}
+p{
+    font-style: italic;
+    font-weight: bolder
+    font-size: 20px;
+    color: darkgreen;
+}
+img,iframe{
+    width: 300px; 
+    height: 200px;
+}
+video{
+     width: 490px; 
+     height: 290px;
+}
