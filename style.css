@@ -1,13 +1,18 @@
 body{
-    background-color:rgba(104, 210, 218, 0.37)
+    background-color:rgba(104, 211, 219, 0.671)
+}
+h1{
+    background-color:rgb(105, 212, 220)
 }
 #titulo{
-    color:rgba(255, 0, 119, 0.719)
+    color:rgba(255, 0, 119, 0.719);
+    text-align: center;
+    font-size: 40px
 }
 p{
     font-style: italic;
-    font-weight: bolder
-    font-size: 20px;
+    font-weight: bolder;
+    font-size: 15px;
     color: darkgreen;
 }
 img,iframe{
@@ -17,4 +22,13 @@ img,iframe{
 video{
      width: 490px; 
      height: 290px;
+}
+a:hover{
+    color: white;
+    font-size: 30px;
+    font-style: inherit
+}
+img:hover{
+    width: 400px;
+    height: 300px;
 }

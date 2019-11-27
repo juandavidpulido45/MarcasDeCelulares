@@ -9,32 +9,40 @@
     <h1 id="titulo">Requisitos Para Adquirir Un Celular</h1>
     <form action="/my-handling-form-page" method="post">
     <div>
+        <label for="email">Datos Personales:</label>
+    </div>
+    <div>
         <label for="name">Nombre:</label>
         <input type="text" id="name" />
+    </div>
+    <br>
+    <div>
         <label for="name">Apellido:</label>
         <input type="text" id="name" />
     </div>
+    <br>
     <div>
         <label for="mail">E-mail:</label>
         <input type="email" id="mail" />
     </div>
+    <br>
     <div>
-        <label for="email">Sexo:</label>
+        <label for="email">Sexo:</label><br>
         <input type="radio" name="gender" value="male"> Hombre<br>
         <input type="radio" name="gender" value="female"> Mujer<br>
     </div>
+    <br>
     <div>
-        <label for="email">Tipo De Celular:</label>
-        <input type="radio" name="gender" value="male"> Iphone<br>
-        <input type="radio" name="gender" value="female"> Samsung<br>
-        <input type="radio" name="gender" value="female"> Otro sin especificar<br>
+        <label for="email">Tipo De Celular:</label><br>
+        <input type="radio" name="phone" value="male"> Iphone<br>
+        <input type="radio" name="phone" value="female"> Samsung<br>
+        <input type="radio" name="phone" value="female"> Otro sin especificar<br>
     </div>
+    <br>
     <div class="button">
-            <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button><button type="reset">Restablecer</button>
     </div>
-    <div class="button">
-            <button type="reset">Restablecer</button>
-    </div>
+    <br>
         <a href="index.html">Ir a página principal</a>
     </body>
     </form>
