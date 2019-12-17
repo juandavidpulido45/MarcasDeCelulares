@@ -1,62 +1,57 @@
 *{
     margin: auto;
+    padding: 0;
+}
+
+header, nav, aside, main, article, section, footer{
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    background-color: rgba(71, 164, 218, 0.5)
 }
 
 body{
-    background-color:rgba(104, 211, 219, 0.671)
+    background-image: url(imagenes/1.jpg);
+    font-family: 'BenchNine', sans-serif;
 }
 
-h1{
-    background-color:rgb(105, 212, 220)
+aside{
+    float: right;
+    background-color: aqua;
+    width: 20%;
+    margin-top: 0;
+    padding: 1%;
 }
 
-#misupertitulo{
-    color:rgba(255, 0, 119, 0.719);
-    text-align: center;
-    font-size: 50px;
-    padding: 15px;
+main{
+    overflow: auto;
 }
 
-#titulo{
-    color:rgba(255, 0, 119, 0.719);
-    text-align: center;
-    font-size: 40px
+footer{
+    clear: both;
 }
 
-p{
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 15px;
-    color: darkgreen;
-    margin: 40px;
-    border: 2px solid black;
-    padding: 40px;
+footer, nav, header, main{
     text-align: center;
 }
 
-.imagenesintro{
-    width: 280px;
+a{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+section{
+    overflow: auto;
+}
+
+.imgderecha{
+    float: right;
+    width: 40%;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+iframe{
     display: block;
-    margin-top: 30px ;
-}
-
-video{
-     width: 490px; 
-     height: 290px;
-}
-
-a:hover{
-    color: white;
-    font-size: 20px;
-    font-style: italic;
-}
-
-img:hover{
-    width: 320px;
-}
-
-.hiper{
-    display: inline;
-    padding: 40px;
-    margin-bottom: 50px;
+    margin: 2% auto;
 }
