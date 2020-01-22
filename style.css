@@ -55,3 +55,12 @@ iframe{
     display: block;
     margin: 2% auto;
 }
+
+#miImagen:hover{
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.6,-0.04,10,2);
+    transform: rotateX(45deg) scale(0.7);
+    transform: rotateZ(-15deg) scale(0.6); 
+    filter: brightness(100%);
+    filter: blur(50%)
+}
