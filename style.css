@@ -64,3 +64,64 @@ iframe{
     filter: brightness(100%);
     filter: blur(50%)
 }
+
+aside{
+    animation-name: miAnimacion;
+    animation-duration: 800ms;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes miAnimacion{
+    0%{
+        transform: scale(0.7,0.7);
+    }
+    25%{
+        transform: rotateZ(-5deg);
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    75%{
+        transform: rotateZ(5deg);
+    }
+    100%{
+        transform: translate(-10px,20px);
+        filter: contrast(350%)
+    }
+}
+
+header{
+    animation-name: miAnimacion2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h2{
+    animation-name: miAnimacion2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h3{
+    animation-name: miAnimacion2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes miAnimacion2{
+    0%{
+        transform: scale(0.5,0.5);
+    }
+    100%{
+        filter: contrast(300%)
+    }
+}
